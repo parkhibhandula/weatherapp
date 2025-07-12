@@ -1,0 +1,84 @@
+body {
+    background-color: black !important;
+    color: white !important;
+}
+#img {
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    width: 80% !important;
+    border-radius: 20px !important; 
+}
+input {
+    width: 85% !important;
+    padding: 5px !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+    margin-top: 5% !important;
+    font-size: 30px !important;
+}
+input:hover {
+    border: 5px solid #002855 !important;
+    color: #002855 !important;
+}
+#cont1,#cont2 {
+    margin-top: 5% !important;
+}
+button {
+    background-color: #002855 !important;
+    border-radius: 20px !important;
+    width: 30% !important;
+    color: white !important;
+    padding: 10px !important;
+    margin-top: 5% !important;
+}
+a{
+    color: white !important;
+    font-size: 20px !important;
+    text-decoration: none !important;
+}
+button:hover {
+    box-shadow: 1px 1px 20px 4px !important;
+}
+#two,#three {
+    padding: 30px !important;
+    background-color: rgb(18, 17, 17)!important;
+    margin: 5% !important;
+    border-radius: 20px !important;
+}
+#imgw{
+    height: 150px !important;
+}
+.col-md-4{
+padding:5% 0 5% 8% !important;
+}
+.col-md-5{
+padding: 3% 0 3% 5% !important;
+}
+#logo{
+font-family:Georgia, 'Times New Roman', Times, serif !important;
+font-weight: bolder !important;
+font-size: 70px !important;
+}
+@media screen and (max-width:350px) {
+    #logo{
+        font-size: 40px !important;
+    }
+    h1{
+        font-size: small !important;
+         font-weight: bold !important;
+    }
+    h2{
+        font-size: small !important;
+    }
+    #imgw{
+    height: 100px !important;
+}
+input {
+    width: 85% !important;
+    padding: 3px !important;
+    border-radius: 20px !important;
+    text-align: center !important;
+    margin-top: 3% !important;
+    font-size: 10px !important;
+}
+}
