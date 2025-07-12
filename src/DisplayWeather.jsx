@@ -32,11 +32,11 @@ export default function DisplayWeather() {
     <div className="container mt-5 text-center" style={{ paddingBottom: '5%' }}>
       <div className="row">
         <div className="col-lg-6">
-          <img src="/src/assets/images/weather.png" id="img" alt="Weather Image" />
+          <img src="/images/weather.png" id="img" alt="Weather Image" />
         </div>
         <div className="col-lg-6" id="cont1">
           <div className="col">
-            <img src="/src/assets/images/logo.png" height="100px" width="100px" alt="img" />
+            <img src="/images/logo.png" height="100px" width="100px" alt="img" />
             <h1 id="logo">ClimaX</h1>
             <h4>The Weather App</h4>
           </div>

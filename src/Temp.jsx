@@ -24,7 +24,7 @@ export default function Temp({ weatherData }) {
         <div>
           <img
             id="imgw"
-            src={`/src/assets/images/${weatherType.toLowerCase()}.png`}
+            src={`/images/${weatherType.toLowerCase()}.png`}
             alt={weatherType}
           />
         </div>
